@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 export default function Layout({ children }) {
 
   useEffect(() => {
-    console.log('useEffect in Layout component just laucnhed. It should not launch on route change, only on Layout\'s mount')
+    console.log('useEffect in Layout component just launched. It should not launch on route change, only on Layout\'s mount')
   },[])
 
   return (
